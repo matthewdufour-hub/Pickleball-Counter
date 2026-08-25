@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pickleball Bounce Counter</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <h1>Pickleball Bounce Counter</h1>
+
+    <section id="player-select">
+      <h2>Who's bouncing?</h2>
+
+      <button id="ryan-button">Ryan</button>
+      <button id="tyler-button">Tyler</button>
+    </section>
+
+    <section id="counter-screen" hidden>
+      <h2 id="player-name"></h2>
+
+      <div id="counter">0</div>
+
+      <button id="bounce-button">+1 Bounce</button>
+      <button id="undo-button">Undo</button>
+      <button id="end-button">End Turn</button>
+    </section>
+
+    <section id="scores">
+      <h2>High Scores</h2>
+
+      <p>Ryan: <strong id="ryan-high-score">0</strong></p>
+      <p>Tyler: <strong id="tyler-high-score">0</strong></p>
+
+      <h2>History</h2>
+      <div id="history"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
