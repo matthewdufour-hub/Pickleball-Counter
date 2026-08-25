@@ -1,1 +1,67 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#ryan-button,
+#tyler-button {
+  font-size: 26px;
+}
+
+#counter {
+  font-size: 90px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#bounce-button {
+  font-size: 30px;
+  padding: 30px;
+}
+
+#undo-button,
+#end-button {
+  font-size: 18px;
+}
+
+#history {
+  text-align: left;
+}
+
+[hidden] {
+  display: none !important;
+}
